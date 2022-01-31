@@ -2,4 +2,9 @@
   font-size: 24px;
   display: grid;
   grid-template-areas: ;
+
+
+
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 2fr 4fr;
 }

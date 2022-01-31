@@ -7,9 +7,10 @@ import Sidebar from './Componentss/Sidebar/Sidebar';
 const App =() =>{
   return (
     <div className='title'>
-    
-  <Header />
-  <Sidebar />
+     <Header />
+     <Main/>
+     <Sidebar />
+  
   <Main/>
     </div>
   );
