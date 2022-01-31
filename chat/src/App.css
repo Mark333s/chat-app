@@ -1,7 +1,10 @@
 .title {
-  font-size: 24px;
+  font-size: 40px;
   display: grid;
-  grid-template-areas: ;
+  grid-template-areas: 
+  'hd  mn'
+  'sd  mn'
+  ;
 
 
 
