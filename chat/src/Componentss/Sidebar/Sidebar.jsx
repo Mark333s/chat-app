@@ -8,9 +8,6 @@ return(
     <div className={s.sidebar}>
   <h5>Chats</h5>
 
-<div className={s.messages}>
-  <a href='#'>message</a>
-</div>
 
     </div>
     

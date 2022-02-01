@@ -1,0 +1,17 @@
+.messages {
+    display: grid;
+    flex-direction: column;
+}
+
+
+.messages a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.dialogs{
+    background-color: blueviolet;
+}
+
