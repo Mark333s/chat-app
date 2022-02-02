@@ -20,7 +20,25 @@ width: 40px;
 }
 
 .yourMessage{
-    margin-top: 140px;
+    margin-top: 300px;
     margin-left: 150px;
    
+}
+
+
+.yourMessage button{
+    background-color: white;
+    height: 30px;
+}
+
+.input{  width: 80%;
+    height: 10px;
+    padding: 10px;
+   border: none;
+   border-bottom: 10x solid gray;
+}
+
+.plane{
+
+    width: 14px;
 }

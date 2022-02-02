@@ -15,7 +15,7 @@ const App =() =>{
      <Header />
     
      <Sidebar />
-     <div className='link'>
+     
      
      <Routes>
      <Route path='/Josefina' element={<Josefina />} />
@@ -23,7 +23,7 @@ const App =() =>{
      <Route path='/Velazquez' element={<Velazquez />} />
      </Routes>
 
-     </div>
+     
     </div>
     </BrowserRouter>
   );
