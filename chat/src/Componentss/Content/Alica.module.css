@@ -6,7 +6,9 @@
 
 
 .user img{
-width: 40px;
+width: 30px;
+border-radius: 100%;
+margin-left: 10px;
 }
 .user {
     display: grid;
@@ -23,21 +25,40 @@ width: 40px;
 .yourMessage{
     margin-top: 300px;
     margin-left: 150px;
+    padding: 10px;
    
 }
 
 .yourMessage button{
     background-color: white;
     height: 30px;
+    border-radius: 5%;
 }
+
 
 .input{  width: 80%;
     height: 10px;
     padding: 10px;
    border: none;
    border-bottom: 10x solid gray;
+   border-radius: 5%;
 }
 
 .plane{
     width: 15px;
+}
+
+.texts img{
+   border-radius: 1000%;
+    width: 20px;
+    padding-right: 10px;
+}
+
+.text{
+    font-size: 13px;
+    padding: 15px;
+}
+
+.texts{
+    padding: 15px;
 }
