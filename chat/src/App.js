@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 import Header from './Componentss/Header/Header';
-import Main from './Componentss/Main/Main';
+import Josefina from './Componentss/Content/Josefina';
 import Sidebar from './Componentss/Sidebar/Sidebar';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Messages from './Componentss/Sidebar/Messages/Messages';
+import Alica from './Componentss/Content/Alica';
+import Velazquez from './Componentss/Content/Velazquez';
 
 const App =() =>{
   return (
@@ -14,16 +16,14 @@ const App =() =>{
     
      <Sidebar />
      <div className='link'>
-      <Routes>
-<Route path='/message1' element={ <Messages />} />
-<Route path='/message2' element={ <Messages />} />
-<Route path='/message3' element={ <Messages />} />
-
+     
+     <Routes>
+     <Route path='/Josefina' element={<Josefina />} />
+     <Route path='/Alica' element={<Alica />} /> 
+     <Route path='/Velazquez' element={<Velazquez />} />
      </Routes>
-      
+
      </div>
-  
-  <Main/>
     </div>
     </BrowserRouter>
   );

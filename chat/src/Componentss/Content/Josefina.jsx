@@ -1,14 +1,18 @@
 import React from "react";
-import s from './Main.module.css';
+import s from './Josefina.module.css';
 
 
-const Main =() => {
+const Josefina =() => {
     return (
         <>
         <div className={s.main}>
         <div className={s.user}>
             <img src='https://www.fotoprizer.ru/img/061017-064505-ft.jpg' alt='girl' ></img> 
             <h5>Josefina</h5>
+        </div>
+
+        <div className={s.text}>
+            Hello!
         </div>
 
 
@@ -25,4 +29,4 @@ const Main =() => {
 
 
 
-export default Main;
+export default Josefina;

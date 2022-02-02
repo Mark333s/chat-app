@@ -1,0 +1,26 @@
+.main{
+    background-color: bisque;
+    grid-area: mn;
+}
+
+
+.user img{
+width: 40px;
+}
+.user {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    
+}
+.user h5{
+    margin-left: -440px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.yourMessage{
+    margin-top: 140px;
+    margin-left: 150px;
+   
+}
