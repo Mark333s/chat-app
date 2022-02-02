@@ -13,13 +13,19 @@ const Alica =() => {
 
         <div className={s.texts}>
        
-        <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img> Guten tag.</div>
+        <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img> <h5>Guten tag.</h5>
+        <div className={s.data}>03/02/2022 , 14:00</div>
+        </div>
            
            
-        <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img> How are you?</div>
+        <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img> <h5>How are you?</h5>
+        <div className={s.data}>03/02/2022 , 14:38</div>
+        </div>
 
 
-            <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img>Tell me something new.</div>
+            <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img><h5>Tell me something new.</h5>
+            <div className={s.data}>03/02/2022 , 16:30</div>
+            </div>
         </div>
 
 

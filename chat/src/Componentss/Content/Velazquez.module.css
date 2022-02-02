@@ -24,7 +24,7 @@ margin-left: 10px;
 .yourMessage{
     margin-top: 300px;
     margin-left: 150px;
-   
+    padding: 10px;
 }
 
 
@@ -53,11 +53,24 @@ margin-left: 10px;
      
  }
  
- .text{
+ .text {
      font-size: 13px;
      padding: 15px;
+     display: grid;
+     grid-template-columns:1fr ;
+ }
+
+ .text h5{
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: -20px;
+    border: 1px solid blue;
+    border-radius: 5%;
  }
  
  .texts{
      padding: 15px;
  }
+ .data{
+    padding: -10px;
+}

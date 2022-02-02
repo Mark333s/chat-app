@@ -13,13 +13,17 @@ const Josefina =() => {
 
         <div className={s.texts}>
        
-       <div className={s.text}> <img src='https://www.fotoprizer.ru/img/061017-064505-ft.jpg' alt='girl' ></img> Guten tag.</div>
+       <div className={s.text}> <img src='https://www.fotoprizer.ru/img/061017-064505-ft.jpg' alt='girl' ></img> <h5>Hello!.</h5>
+       <div className={s.data}>07/13/2021 , 14:00</div>
+       </div>
           
           
-       <div className={s.text}> <img src='https://www.fotoprizer.ru/img/061017-064505-ft.jpg' alt='girl' ></img> How are you?</div>
+       <div className={s.text}> <img src='https://www.fotoprizer.ru/img/061017-064505-ft.jpg' alt='girl' ></img> <h5>What are you doing now?</h5>
+       <div className={s.data}>07/13/2021 , 14:01</div>
+       </div>
 
 
-           <div className={s.text}> <img src='https://www.fotoprizer.ru/img/061017-064505-ft.jpg' alt='girl' ></img>Tell me something new.</div>
+         
        </div>
 
 

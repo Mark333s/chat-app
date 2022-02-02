@@ -24,7 +24,7 @@ margin-left: 10px;
 .yourMessage{
     margin-top: 300px;
     margin-left: 150px;
-   
+    padding: 10px;
 }
 
 .yourMessage button{
@@ -59,3 +59,14 @@ margin-left: 10px;
  .texts{
      padding: 15px;
  }
+ .text h5{
+  
+    font-size: 13px;
+    margin-left: 50px;
+    margin-top: -20px;
+    border: 1px solid blue;
+    border-radius: 5%;
+}
+.data{
+    padding: -10px;
+}

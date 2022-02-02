@@ -13,13 +13,17 @@ const Velazquez =() => {
 
         <div className={s.texts}>
        
-       <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLjRDrylE_ZBdMzZ_cO8nO8sYFXFFYjOPlQ&usqp=CAU' alt='girl' ></img> Guten tag.</div>
+       <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLjRDrylE_ZBdMzZ_cO8nO8sYFXFFYjOPlQ&usqp=CAU' alt='girl' ></img> <h5>What's up?</h5>
+       <div className={s.data}>01/13/2022 , 9:30</div>
+       </div>
           
           
-       <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLjRDrylE_ZBdMzZ_cO8nO8sYFXFFYjOPlQ&usqp=CAU' alt='girl' ></img> How are you?</div>
+       <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLjRDrylE_ZBdMzZ_cO8nO8sYFXFFYjOPlQ&usqp=CAU' alt='girl' ></img> <h5>Would you like go to play football today?</h5> 
+       <div className={s.data}>01/13/2022 , 9:32</div>
+       </div>
 
 
-           <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLjRDrylE_ZBdMzZ_cO8nO8sYFXFFYjOPlQ&usqp=CAU' alt='girl' ></img>Tell me something new.</div>
+          
        </div>
 
 
