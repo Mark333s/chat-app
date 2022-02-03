@@ -1,5 +1,5 @@
 .main{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     grid-area: mn;
   
 }
@@ -16,6 +16,10 @@ margin-left: 10px;
     grid-template-rows: 1fr ;
     
 }
+
+.user {
+    background-color: rgb(211, 211, 211);
+}
 .user h5{
     margin-left: -440px;
     margin-top: 10px;
@@ -24,8 +28,11 @@ margin-left: 10px;
 
 .yourMessage{
     margin-top: 300px;
-    margin-left: 150px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(211, 211, 211);
+   
    
 }
 
@@ -39,9 +46,9 @@ margin-left: 10px;
 .input{  width: 80%;
     height: 10px;
     padding: 10px;
-   border: none;
-   border-bottom: 10x solid gray;
+   border-bottom: 10x solid rgba(128, 128, 128, 0.253);
    border-radius: 5%;
+   border: none;
 }
 
 .plane{

@@ -1,12 +1,12 @@
 .sidebar{
-    background-color: blueviolet;
+    background-color: gainsboro;
     grid-area: sd;
 }
 
 
 
 .sidebar h5{
-    color: black;
+    color: rgb(27, 0, 182);
     padding: 15px;
 }
 
