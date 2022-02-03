@@ -8,7 +8,7 @@ import Messages from './Componentss/Sidebar/Messages/Messages';
 import Alica from './Componentss/Content/Alica';
 import Velazquez from './Componentss/Content/Velazquez';
 
-const App =() =>{
+const App =(props) =>{
   return (
     <BrowserRouter>
     <div className='title'>
@@ -19,7 +19,7 @@ const App =() =>{
      
      <Routes>
      <Route path='/Josefina' element={<Josefina />} />
-     <Route path='/Alica' element={<Alica />} /> 
+     <Route path='/Alica' element={<Alica state={props.state.Alice} />} /> 
      <Route path='/Velazquez' element={<Velazquez />} />
      </Routes>
 

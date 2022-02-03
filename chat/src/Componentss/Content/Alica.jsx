@@ -2,7 +2,16 @@ import React from "react";
 import s from './Alica.module.css';
 
 
-const Alica =() => {
+
+const Messages =(props)=>{
+    return     <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img> 
+    {props.text}
+    <div className={s.data}>{props.data}</div>
+    </div> 
+}
+
+
+const Alica =(props) => {
     return (
         <>
         <div className={s.main}>
@@ -12,20 +21,11 @@ const Alica =() => {
         </div>
 
         <div className={s.texts}>
-       
-        <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img> <h5>Guten tag.</h5>
-        <div className={s.data}>03/02/2022 , 14:00</div>
-        </div>
-           
-           
-        <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img> <h5>How are you?</h5>
-        <div className={s.data}>03/02/2022 , 14:38</div>
-        </div>
 
-
-            <div className={s.text}> <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU' alt='girl' ></img><h5>Tell me something new.</h5>
-            <div className={s.data}>03/02/2022 , 16:30</div>
-            </div>
+           <Messages  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU'    text='How are you?' data='03/02/2022 , 14:10'   id/>    
+           <Messages  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU'    text='Tell me something new' data='03/02/2022 , 14:00' />
+           <Messages  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU'    text='eyy' data='03/02/2022 , 14:00' />
+        
         </div>
 
 
