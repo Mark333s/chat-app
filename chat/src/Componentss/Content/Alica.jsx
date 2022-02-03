@@ -12,7 +12,29 @@ const Messages =(props)=>{
 
 
 const Alica =(props) => {
+    let messagesData =[ {
+  id: 1,
+  text: 'How are you?',
+  img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU',
+  data: '03/02/2022 , 14:10' 
+    }, 
+    
+   {
+        id: 2,
+    text: 'Tell me something new.',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU',
+    data: '03/02/2022 , 14:25' 
+      },
+
+     { id: 3,
+      text: 'eyy',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU',
+      data: '03/02/2022 , 14:30' 
+        }
+    ]
     return (
+
+      
         <>
         <div className={s.main}>
         <div className={s.user}>
@@ -22,9 +44,9 @@ const Alica =(props) => {
 
         <div className={s.texts}>
 
-           <Messages  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU'    text='How are you?' data='03/02/2022 , 14:10'   id/>    
-           <Messages  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU'    text='Tell me something new' data='03/02/2022 , 14:00' />
-           <Messages  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU'    text='eyy' data='03/02/2022 , 14:00' />
+           <Messages  src={messagesData[0].img}    text={messagesData[0].text} data={messagesData[0].data}   />    
+           <Messages  src={messagesData[1].img}    text={messagesData[1].text} data={messagesData[1].data}  />
+           <Messages  src={messagesData[2].img}     text={messagesData[2].text} data={messagesData[2].data} />
         
         </div>
 
