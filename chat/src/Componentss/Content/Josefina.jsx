@@ -1,8 +1,29 @@
 import React from "react";
 import s from './Josefina.module.css';
+const Messages =(props)=>{
+    return     <div className={s.text}> <img src='https://www.fotoprizer.ru/img/061017-064505-ft.jpg' alt='girl' ></img> 
+    {props.text}
+    <div className={s.data}>{props.data}</div>
+    </div> 
+}
 
-
-const Josefina =() => {
+const Josefina =(props) => {
+    let messagesData =[ {
+        id: 1,
+        text: 'Hello!.',
+        img: 'https://www.fotoprizer.ru/img/061017-064505-ft.jpg',
+        data: '07/13/2021 , 14:01' 
+          }, 
+          
+         {
+              id: 2,
+          text: 'What are you doing now?',
+          img: 'https://www.fotoprizer.ru/img/061017-064505-ft.jpg',
+          data: '03/02/2022 , 14:25' 
+            },
+      
+        
+          ]
     return (
         <>
         <div className={s.main}>
@@ -13,14 +34,10 @@ const Josefina =() => {
 
         <div className={s.texts}>
        
-       <div className={s.text}> <img src='https://www.fotoprizer.ru/img/061017-064505-ft.jpg' alt='girl' ></img> <h5>Hello!.</h5>
-       <div className={s.data}>07/13/2021 , 14:00</div>
-       </div>
+    
+        <Messages  src={messagesData[0].img}    text={messagesData[0].text} data={messagesData[0].data}   />    
+           <Messages  src={messagesData[1].img}    text={messagesData[1].text} data={messagesData[1].data}  />
           
-          
-       <div className={s.text}> <img src='https://www.fotoprizer.ru/img/061017-064505-ft.jpg' alt='girl' ></img> <h5>What are you doing now?</h5>
-       <div className={s.data}>07/13/2021 , 14:01</div>
-       </div>
 
 
          
