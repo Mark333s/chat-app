@@ -18,9 +18,9 @@ const App =(props) =>{
      
      
      <Routes>
-     <Route path='/Josefina' element={<Josefina messagesData2={props.messagesData2}/>} />
-     <Route path='/Alica' element={<Alica messagesData={props.messagesData} />} /> 
-     <Route path='/Velazquez' element={<Velazquez messagesData3={props.messagesData3}/>} />
+     <Route path='/Josefina' element={<Josefina messagesData2={props.state.messagesData2}/>} />
+     <Route path='/Alica' element={<Alica messagesData={props.state.messagesData} />} /> 
+     <Route path='/Velazquez' element={<Velazquez messagesData3={props.state.messagesData3}/>} />
      </Routes>
 
      
