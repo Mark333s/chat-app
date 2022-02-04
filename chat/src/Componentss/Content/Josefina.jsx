@@ -3,25 +3,9 @@ import s from './Josefina.module.css';
 import Messages from "./JosefinaItem/josefina";
 
 const Josefina =(props) => {
-    let messagesData =[ {
-        id: 1,
-        text: 'Hello!.',
-        img: 'https://www.fotoprizer.ru/img/061017-064505-ft.jpg',
-        data: '07/13/2021 , 14:01' 
-          }, 
-          
-         {
-              id: 2,
-          text: 'What are you doing now?',
-          img: 'https://www.fotoprizer.ru/img/061017-064505-ft.jpg',
-          data: '03/02/2022 , 14:25' 
-            },
-      
-        
-          ]
-
-          let messagesElements = messagesData
-          .map(message=>  <Messages  src={message.img}    text={message.text} data={message.data}   />,)
+    
+          let messagesElements = 
+          props.messagesData2.map(message=>  <Messages  src={message.img}    text={message.text} data={message.data}   />,)
           
          
     return (

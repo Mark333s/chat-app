@@ -12,4 +12,19 @@
 
 .messages{
     padding: 15px;
+   
+}
+
+.item a{
+    text-decoration: none;
+    text-decoration: none;
+  color: #000000;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(15, 122, 252, 0.2);
+}
+
+.item :hover {
+    text-decoration: none;
+    color: #cf0000;
+    border-bottom-color: rgba(208, 64, 0, 0.2);
 }

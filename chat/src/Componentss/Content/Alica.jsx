@@ -7,29 +7,10 @@ import Messages from "./AlicaItem/alicaItem";
 
 
 const Alica =(props) => {
-    let messagesData =[ {
-  id: 1,
-  text: 'How are you?',
-  img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU',
-  data: '03/02/2022 , 14:10' 
-    }, 
-    
-   {
-        id: 2,
-    text: 'Tell me something new.',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU',
-    data: '03/02/2022 , 14:25' 
-      },
 
-     { id: 3,
-      text: 'eyy',
-      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU',
-      data: '03/02/2022 , 14:30' 
-        }
-    ]
 
-    let messagesElements =  messagesData 
-    .map(message=>  <Messages  src={message.img}    text={message.text} data={message.data}   />,)
+    let messagesElements =  
+    props.messagesData.map(message=>  <Messages  src={message.img}    text={message.text} data={message.data}   />,)
    
     return (
 
