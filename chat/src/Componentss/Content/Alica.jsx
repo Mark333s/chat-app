@@ -32,6 +32,10 @@ const Alica =(props) => {
       data: '03/02/2022 , 14:30' 
         }
     ]
+
+    let messagesElements =  messagesData 
+    .map(message=>  <Messages  src={message.img}    text={message.text} data={message.data}   />,)
+   
     return (
 
       
@@ -43,10 +47,7 @@ const Alica =(props) => {
         </div>
 
         <div className={s.texts}>
-
-           <Messages  src={messagesData[0].img}    text={messagesData[0].text} data={messagesData[0].data}   />    
-           <Messages  src={messagesData[1].img}    text={messagesData[1].text} data={messagesData[1].data}  />
-           <Messages  src={messagesData[2].img}     text={messagesData[2].text} data={messagesData[2].data} />
+            {messagesElements}
         
         </div>
 
