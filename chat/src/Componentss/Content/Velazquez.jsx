@@ -4,25 +4,10 @@ import Messages from "./VelazquezItem/velazquez";
 
 
 const Velazquez = (props) => {
-    let messagesData = [{
-        id: 1,
-        text: "What's up?",
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLjRDrylE_ZBdMzZ_cO8nO8sYFXFFYjOPlQ&usqp=CAU',
-        data: '01/13/2022 , 9:30'
-    },
+    
 
-    {
-        id: 2,
-        text: 'Would you like go to play football today?',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLjRDrylE_ZBdMzZ_cO8nO8sYFXFFYjOPlQ&usqp=CAU',
-        data: '01/13/2022 , 9:32'
-    },
-
-
-    ]
-
-    let messagesElements =  messagesData
-    .map(message=> <Messages src={message.img} text={message.text} data={message.data} />)
+    let messagesElements = 
+    props.messagesData3.map(message=> <Messages src={message.img} text={message.text} data={message.data} />)
     
    
     return (
