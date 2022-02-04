@@ -10,7 +10,7 @@ import Velazquez from './Componentss/Content/Velazquez';
 
 const App =(props) =>{
   return (
-    <BrowserRouter>
+   
     <div className='title'>
      <Header />
     
@@ -19,13 +19,13 @@ const App =(props) =>{
      
      <Routes>
      <Route path='/Josefina' element={<Josefina messagesData2={props.state.messagesData2}/>} />
-     <Route path='/Alica' element={<Alica messagesData={props.state.messagesData} />} /> 
+     <Route path='/Alica' element={<Alica messagesData={props.state.messagesData}  sendMessage={props.sendMessage}/>} /> 
      <Route path='/Velazquez' element={<Velazquez messagesData3={props.state.messagesData3}/>} />
      </Routes>
 
      
     </div>
-    </BrowserRouter>
+    
   );
 }
 

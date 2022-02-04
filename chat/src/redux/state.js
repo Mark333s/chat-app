@@ -2,7 +2,7 @@
 
 
 
-
+import {rerenderEntiredTree} from '../render';
           
 
         let state = {
@@ -61,6 +61,15 @@
             
                 ]
         }
-
+        export let sendMessage=(Message)=>{
+          
+          let newMessage={
+            id:5,
+            text: Message,
+            data: '01/13/2022, 10:32'
+          };
+          state.messagesData.push(newMessage);
+          rerenderEntiredTree();
+        };
 
         export default state;

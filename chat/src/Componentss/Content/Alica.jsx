@@ -17,7 +17,7 @@ const Alica = (props) => {
           
     let sendMessage = () => {
        let text = newMessageEl.current.value;
-        alert(text)
+        props.sendMessage(text)
     }
 
     return (
