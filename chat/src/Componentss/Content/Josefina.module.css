@@ -44,6 +44,7 @@ padding: 10px;
     padding: 10px;
    border: none;
    border-bottom: 10x solid gray;
+   border-radius: 20px;
 }
 
 .plane{

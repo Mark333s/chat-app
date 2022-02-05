@@ -69,7 +69,28 @@ import {rerenderEntiredTree} from '../render';
             data: '01/13/2022, 10:32'
           };
           state.messagesData.push(newMessage);
-          rerenderEntiredTree();
+          rerenderEntiredTree(state);
+        };
+
+        export let sendMessage2=(Message)=>{
+          
+          let newMessage={
+            id:5,
+            text: Message,
+            data: '01/13/2022, 10:32'
+          };
+          state.messagesData2.push(newMessage);
+          rerenderEntiredTree(state);
+        };
+        export let sendMessage3=(Message)=>{
+          
+          let newMessage={
+            id:5,
+            text: Message,
+            data: '01/13/2022, 10:32'
+          };
+          state.messagesData3.push(newMessage);
+          rerenderEntiredTree(state);
         };
 
         export default state;

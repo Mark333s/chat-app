@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {sendMessage} from './redux/state';
 import { BrowserRouter } from 'react-router-dom';
+import { sendMessage2 } from './redux/state';
+import { sendMessage3 } from './redux/state';
 
 
 
@@ -13,7 +15,7 @@ export let rerenderEntiredTree =(state)=>{
 ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>
-    <App state={state} sendMessage={sendMessage}/>
+    <App state={state} sendMessage={sendMessage} sendMessage2={sendMessage2} sendMessage3={sendMessage3}/>
   </React.StrictMode>
   </BrowserRouter>,
   document.getElementById('root')
