@@ -1,4 +1,5 @@
 import React from "react";
+import { sendMessage3 } from "../../redux/state";
 import s from './Velazquez.module.css';
 import Messages from "./VelazquezItem/velazquez";
 

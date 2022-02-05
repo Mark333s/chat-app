@@ -1,11 +1,9 @@
 
+let rerenderEntiredTree=()=>{
+  
+}
 
-
-
-import {rerenderEntiredTree} from '../render';
-          
-
-        let state = {
+let state = {
           messagesData:  [ {
             id: 1,
             text: 'How are you?',
@@ -59,7 +57,14 @@ import {rerenderEntiredTree} from '../render';
                 },
             
             
-                ]
+                ],
+
+                messagesData4: [{
+                  id: 7,
+                  text: 'dsdsfs',
+                  data: '13/11/2021 , 11:35'
+                }],
+                
         }
         export let sendMessage=(Message)=>{
           
@@ -92,5 +97,9 @@ import {rerenderEntiredTree} from '../render';
           state.messagesData3.push(newMessage);
           rerenderEntiredTree(state);
         };
+
+        export const subscribe =(observer) =>{
+          rerenderEntiredTree = observer;
+        }
 
         export default state;
