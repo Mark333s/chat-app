@@ -5,7 +5,7 @@ import Messages from "./JosefinaItem/josefina";
 const Josefina =(props) => {
     
           let messagesElements = 
-          props.messagesData2.map(message=><Messages src={message.img} text={message.text} data={message.data} />,)
+          props.Josefina.map(message=><Messages src={message.img} text={message.text} data={message.data} />,)
           
 
           let newMessageEl = React.createRef();

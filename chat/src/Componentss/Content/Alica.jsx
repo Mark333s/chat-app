@@ -10,7 +10,7 @@ const Alica = (props) => {
 
 
     let messagesElements =
-        props.messagesData.map(message => <Messages src={message.img} text={message.text} data={message.data} />,)
+        props.Alica.map(message => <Messages src={message.img} text={message.text} data={message.data} />,)
 
 
     let newMessageEl = React.createRef();

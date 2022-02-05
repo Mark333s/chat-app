@@ -4,7 +4,7 @@ let rerenderEntiredTree=()=>{
 }
 
 let state = {
-          messagesData:  [ {
+          Alica:  [ {
             id: 1,
             text: 'How are you?',
             img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ups0cNsdCkLhITh9cR-zXWRlEZIxNF-W3g&usqp=CAU',
@@ -25,7 +25,7 @@ let state = {
                   }
               ], 
 
-              messagesData2: [ {
+             Josefina: [ {
                 id: 1,
                 text: 'Hello!.',
                 img: 'https://www.fotoprizer.ru/img/061017-064505-ft.jpg',
@@ -42,7 +42,7 @@ let state = {
                 
                   ],
 
-                  messagesData3:  [{
+                  Velazquez:  [{
                     id: 1,
                     text: "What's up?",
                     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLjRDrylE_ZBdMzZ_cO8nO8sYFXFFYjOPlQ&usqp=CAU',
@@ -64,6 +64,10 @@ let state = {
                   text: 'dsdsfs',
                   data: '13/11/2021 , 11:35'
                 }],
+
+                chatName: [{
+                  
+                }]
                 
         }
         export let sendMessage=(Message)=>{
@@ -73,7 +77,7 @@ let state = {
             text: Message,
             data: '01/13/2022, 10:32'
           };
-          state.messagesData.push(newMessage);
+          state.Alica.push(newMessage);
           rerenderEntiredTree(state);
         };
 
@@ -84,7 +88,7 @@ let state = {
             text: Message,
             data: '01/13/2022, 10:32'
           };
-          state.messagesData2.push(newMessage);
+          state.Josefina.push(newMessage);
           rerenderEntiredTree(state);
         };
         export let sendMessage3=(Message)=>{
@@ -94,7 +98,7 @@ let state = {
             text: Message,
             data: '01/13/2022, 10:32'
           };
-          state.messagesData3.push(newMessage);
+          state.Velazquez.push(newMessage);
           rerenderEntiredTree(state);
         };
 

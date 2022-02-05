@@ -8,7 +8,7 @@ const Velazquez = (props) => {
     
 
     let messagesElements = 
-    props.messagesData3.map(message=> <Messages src={message.img} text={message.text} data={message.data} />)
+    props.Velazquez.map(message=> <Messages src={message.img} text={message.text} data={message.data} />)
     
    
     let newMessageEl = React.createRef();
